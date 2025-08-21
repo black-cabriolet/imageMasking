@@ -1,0 +1,38 @@
+body {
+  scroll-behavior: smooth; }
+  body .main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; }
+  body .hidden {
+    opacity: 0;
+    transform: translateY(50px); }
+  body .entry {
+    background: lightgoldenrodyellow; }
+  body .next {
+    background: plum; }
+  body .update {
+    background: deeppink; }
+  body .art {
+    display: block;
+    height: 1800px;
+    background: coral; }
+    body .art .masked-img {
+      width: 100%;
+      mask-image: url("images/mask-img.png");
+      /* The image used as the mask shape */
+      mask-repeat: no-repeat;
+      /* Don't repeat the mask image */
+      mask-position: center;
+      /* Center the mask over the image */
+      mask-size: 50%;
+      /* Scale the mask image to 50% of the element's size */
+      -webkit-mask-image: url("images/mask-img.png");
+      /* WebKit browser support (Safari, older Chrome) */
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      -webkit-mask-size: 50%; }
+
+/*# sourceMappingURL=styles.css.map */
